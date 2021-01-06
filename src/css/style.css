@@ -1,8 +1,8 @@
 [data-theme='dark'] {
-  filter: invert(1);
+  filter: invert(100%);
 }
 [data-theme='light'] {
-  filter: invert();
+  filter: invert(0%);
 }
 @font-face {
   font-family: 'Balistone';
