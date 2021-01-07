@@ -24,14 +24,14 @@ function cursorNml() {
 (function(){
   document.querySelectorAll('.linkss').forEach(item => {
     item.addEventListener("mouseover", () => {
-      document.querySelector('.cursor-all').classList.toggle('cursor');
-      document.querySelector('.cursor-all').classList.toggle('cursor-sm');
+      document.querySelector('.cursor-all').classList.remove('cursor');
+      document.querySelector('.cursor-all').classList.add('cursor-sm');
     });
   });
   document.querySelectorAll('.linkss').forEach(item => {
     item.addEventListener("mouseleave", () => {
-      document.querySelector('.cursor-all').classList.toggle('cursor');
-      document.querySelector('.cursor-all').classList.toggle('cursor-sm');
+      document.querySelector('.cursor-all').classList.add('cursor');
+      document.querySelector('.cursor-all').classList.remove('cursor-sm');
     });
   });
   document.querySelectorAll('.linksss').forEach(item => {
