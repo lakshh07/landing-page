@@ -147,6 +147,7 @@ header {
   font-size: 2rem;
   font-family: 'Balistone';
   color: red;
+  cursor:pointer;
 }
 .nav-top-3 {
   position: fixed;
