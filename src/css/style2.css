@@ -25,29 +25,19 @@ a{
 }
 .nav-top{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: sticky;
     z-index: 2;
 }
-.nav-top-1 a{
-    font-family: 'Yellowtail', cursive;
-    font-size: 1.2rem;
-    cursor: pointer;
-    color: rgb(255, 255, 255);
 }
 .nav-top-2 a{
     font-family: 'Marck Script', cursive;
     font-size: 1.9rem;
     color: blue;
+     transition: color 1s;
 }
 .nav-top-2 a:hover{
     color: white;
-    transition: all 0.3s;
-}
-.nav-top-3{
-    font-size: 1.3rem;
-    cursor: pointer;
-    color: rgb(255, 255, 255);
 }
 .nav-down{
     bottom: 30px;
@@ -79,14 +69,4 @@ ion-icon:hover {
     100% {
       transform: translateY(0px);
     }
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    z-index: -10;
-    background: black;
   }
