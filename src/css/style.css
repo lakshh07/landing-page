@@ -139,7 +139,7 @@ header {
   color: black;
   z-index: 4;
 }
-.nav-top-2 {
+.nav-top-2 a{
   position: fixed;
   right: 44%;
   padding-top: 1.4rem;
